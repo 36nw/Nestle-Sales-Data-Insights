@@ -1,5 +1,5 @@
 # Nestle Sales Insights: From Data Deluge to Strategic Decisions
-A project analyzing Nestle's sales data (18,115 rows, 13 columns) to improve sales strategies through forecasting, segmentation, and interactive visualizations. Includes Prophet forecasting, K-Means/DBSCAN clustering, and geospatial analysis.
+A project analyzing Nestle's sales data (with 18,115 transactions and 13 variables) to improve sales strategies through forecasting, segmentation, and interactive visualizations. Includes Prophet forecasting, K-Means/DBSCAN clustering, and geospatial analysis.
 
 ## Table of Contents
 
