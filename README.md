@@ -38,7 +38,7 @@ The goals of this project are to:
 
 ## Data Source
 
-The dataset used in this project is Nestle's internal sales data, containing information on sales count, total revenue, sales medium, and location. The dataset consists of 18,115 transactions and 13 variables.
+The dataset used in this project is Nestle's internal sales data, containing information on sales count, total revenue, sales medium, and location. The dataset consists of 18,115 rows and 13 columns.
 
 ## Tools & Technologies
 
