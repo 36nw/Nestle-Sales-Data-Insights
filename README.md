@@ -49,14 +49,14 @@ The dataset used in this project is Nestle's internal sales data, containing inf
 
 ## Methodology
 
-1.  **Data Loading and Preprocessing:** Cleaning and preparing the dataset for analysis.
-2.  **Exploratory Data Analysis (EDA):** Visualizing sales trends and identifying key patterns.
-3.  **Market Basket Analysis (MBA):** (Initial attempt, adapted due to data characteristics).
-4.  **Time Series Forecasting:** Utilizing ARIMA and Prophet models.
-5.  **Segmentation Analysis:** Applying K-Means and DBSCAN clustering.
-6.  **Geospatial Visualization:** Mapping sales performance by location.
-7.  **Tableau Dashboard Creation:** Developing an interactive dashboard to present key insights.
-8.  **Business Insight Extraction:** Translating findings into actionable recommendations.
+- 1.  **Data Loading and Preprocessing:** Cleaning and preparing the dataset for analysis.
+- 2.  **Exploratory Data Analysis (EDA):** Visualizing sales trends and identifying key patterns.
+- 3.  **Market Basket Analysis (MBA):** (Initial attempt, adapted due to data characteristics).
+- 4.  **Time Series Forecasting:** Utilizing ARIMA and Prophet models.
+- 5.  **Segmentation Analysis:** Applying K-Means and DBSCAN clustering.
+- 6.  **Geospatial Visualization:** Mapping sales performance by location.
+- 7.  **Tableau Dashboard Creation:** Developing an interactive dashboard to present key insights.
+- 8.  **Business Insight Extraction:** Translating findings into actionable recommendations.
 
 ## Results & Findings
 
