@@ -31,9 +31,9 @@ We discovered:
 -   **Online sales opportunity:** Online sales lagged, indicating a clear area for improvement.
 -   **Geographic performance variations:** Sales performance differed significantly across locations, requiring tailored strategies.
 
-## The "Productionization" (Interactive Visualization)
+## The "Productionization" (Interactive Visualizations)
 
-We created an interactive map that visualized sales performance by location. This tool allowed for easy identification of high-performing regions and areas needing attention, making the data accessible and actionable.
+We created an interactive map that visualized sales performance by location. In addition to this geospatial analysis, a comprehensive Tableau dashboard was developed to provide an interactive and in-depth view of sales performance across various dimensions.** This tool allowed for easy identification of high-performing regions and areas needing attention, making the data accessible and actionable. The Tableau dashboard further enhanced this by offering a multi-faceted exploration of the data, including key metrics, trends, and comparisons, all in an intuitive visual format.
 
 ## The Business Value
 
