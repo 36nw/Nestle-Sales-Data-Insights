@@ -1,5 +1,5 @@
 # Nestle Sales Insights: From Data Deluge to Strategic Decisions
-A project analyzing Nestle's sales data to improve sales strategies through forecasting, segmentation, and interactive visualizations. Includes Prophet forecasting, K-Means/DBSCAN clustering, geospatial analysis, and **Tableau dashboard creation**.
+A project analyzing Nestle's sales data to improve sales strategies through forecasting, segmentation, and interactive visualizations. Includes Prophet forecasting, K-Means/DBSCAN clustering, geospatial analysis, and Tableau dashboard creation.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ A project analyzing Nestle's sales data to improve sales strategies through fore
 
 ## Project Overview
 
-This project analyzes Nestle's sales data to extract actionable insights for strategic improvement. We navigate through challenges like single-item transactions to provide robust sales forecasts and segmentation, driving informed decision-making and optimizing resource allocation. **Furthermore, this project includes the creation of a Tableau dashboard to provide interactive and easily understandable visualizations of key sales insights.**
+This project analyzes Nestle's sales data to extract actionable insights for strategic improvement. We navigate through challenges like single-item transactions to provide robust sales forecasts and segmentation, driving informed decision-making and optimizing resource allocation. Furthermore, this project includes the creation of a Tableau dashboard to provide interactive and easily understandable visualizations of key sales insights.
 
 ## Business Problem
 
@@ -30,11 +30,11 @@ Nestle faces challenges in understanding customer purchasing patterns, forecasti
 
 The goals of this project are to:
 
--   Identify product associations (initially) and individual product performance.
--   Accurately forecast future sales trends.
--   Segment sales data by location and medium to optimize strategies.
--   Develop interactive visualizations to communicate findings effectively **including a comprehensive Tableau dashboard**.
--   Provide clear, data-driven business recommendations.
+* Identify product associations (initially) and individual product performance.
+* Accurately forecast future sales trends.
+* Segment sales data by location and medium to optimize strategies.
+* Develop interactive visualizations to communicate findings effectively, including a comprehensive Tableau dashboard.
+* Provide clear, data-driven business recommendations.
 
 ## Data Source
 
@@ -42,10 +42,10 @@ The dataset used in this project is Nestle's internal sales data, containing inf
 
 ## Tools & Technologies
 
--   **Python:** Pandas (data manipulation), NumPy (numerical computations), Scikit-learn (machine learning), Prophet (time series forecasting).
--   **Folium:** (Geospatial visualization).
--   **Jupyter Notebooks:** (Analysis and code documentation).
--   **Tableau:** (Interactive dashboard creation and data visualization).
+* **Python:** Pandas (data manipulation), NumPy (numerical computations), Scikit-learn (machine learning), Prophet (time series forecasting).
+* **Folium:** (Geospatial visualization).
+* **Jupyter Notebooks:** (Analysis and code documentation).
+* **Tableau:** (Interactive dashboard creation and data visualization).
 
 ## Methodology
 
@@ -60,22 +60,22 @@ The dataset used in this project is Nestle's internal sales data, containing inf
 
 ## Results & Findings
 
--   Prevalence of single-item transactions, necessitating a shift from MBA.
--   Prophet demonstrated superior accuracy in sales forecasting.
--   Significant disparities in sales performance across locations and mediums.
--   Direct sales showed higher effectiveness compared to online channels.
--   Interactive mapping revealed key sales hotspots and areas for improvement.
--   **A comprehensive Tableau dashboard was created to provide an intuitive and interactive overview of these findings, enabling easier exploration and deeper understanding of the data.**
+* Prevalence of single-item transactions, necessitating a shift from MBA.
+* Prophet demonstrated superior accuracy in sales forecasting.
+* Significant disparities in sales performance across locations and mediums.
+* Direct sales showed higher effectiveness compared to online channels.
+* Interactive mapping revealed key sales hotspots and areas for improvement.
+* A comprehensive Tableau dashboard was created to provide an intuitive and interactive overview of these findings, enabling easier exploration and deeper understanding of the data.
 
 ## Conclusion & Recommendations
 
--   Prioritize online sales improvement through targeted strategies.
--   Leverage Prophet for ongoing sales forecasting.
--   Tailor regional marketing efforts based on segmentation analysis.
--   Analyze and scale direct sales success.
--   Utilize interactive visualizations, **including the created Tableau dashboard**, for informed decision-making.
+* Prioritize online sales improvement through targeted strategies.
+* Leverage Prophet for ongoing sales forecasting.
+* Tailor regional marketing efforts based on segmentation analysis.
+* Analyze and scale direct sales success.
+* Utilize interactive visualizations, including the created Tableau dashboard**, for informed decision-making.
 
-This project underscores the importance of adaptable analytical approaches and data-driven strategies for optimizing sales performance and informing strategic decision-making within Nestle. The inclusion of a **Tableau dashboard enhances the accessibility and impact of the insights.**
+This project underscores the importance of adaptable analytical approaches and data-driven strategies for optimizing sales performance and informing strategic decision-making within Nestle. The inclusion of a Tableau dashboard enhances the accessibility and impact of the insights.
 
 ## Project Structure
 
@@ -94,14 +94,14 @@ Nestle_Sales_Insights/
 2.  Navigate to the project directory: `cd Nestle_Sales_Insights`
 3.  Create a virtual environment (recommended): `python -m venv venv`, `source venv/bin/activate` (macOS/Linux), `venv\Scripts\activate` (Windows)
 4.  Install dependencies: `pip install -r requirements.txt`
-5.  Open the Jupyter notebooks in the `notebooks/` directory to explore the analysis. **The Tableau dashboard can be accessed separately using Tableau Desktop or Tableau Public.**
+5.  Open the Jupyter notebooks in the `notebooks/` directory to explore the analysis. The Tableau dashboard can be accessed separately using Tableau Desktop or Tableau Public.
 
 ## Usage
 
 -   Explore the Jupyter notebooks to understand the data analysis process.
 -   Run the notebooks to reproduce the results and visualizations.
 -   Use the interactive map in the `visualizations/` directory to explore sales performance by location.
--   **Access the Tableau dashboard (if shared) to interact with key sales insights and explore the data visually.**
+-   Access the Tableau dashboard (if shared) to interact with key sales insights and explore the data visually.
 
 ## Contributing
 
