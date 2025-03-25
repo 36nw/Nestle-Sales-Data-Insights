@@ -90,18 +90,18 @@ Nestle_Sales_Insights/
 
 ## Setup & Installation
 
-1.  Clone the repository: `git clone [https://github.com/your-username/Nestle_Sales_Insights.git]`
-2.  Navigate to the project directory: `cd Nestle_Sales_Insights`
-3.  Create a virtual environment (recommended): `python -m venv venv`, `source venv/bin/activate` (macOS/Linux), `venv\Scripts\activate` (Windows)
-4.  Install dependencies: `pip install -r requirements.txt`
-5.  Open the Jupyter notebooks in the `notebooks/` directory to explore the analysis. The Tableau dashboard can be accessed separately using Tableau Desktop or Tableau Public.
+1. Clone the repository: `git clone [https://github.com/your-username/Nestle_Sales_Insights.git]`
+2. Navigate to the project directory: `cd Nestle_Sales_Insights`
+3. Create a virtual environment (recommended): `python -m venv venv`, `source venv/bin/activate` (macOS/Linux), `venv\Scripts\activate` (Windows)
+4. Install dependencies: `pip install -r requirements.txt`
+5. Open the Jupyter notebooks in the `notebooks/` directory to explore the analysis. The Tableau dashboard can be accessed separately using Tableau Desktop or Tableau Public.
 
 ## Usage
 
--   Explore the Jupyter notebooks to understand the data analysis process.
--   Run the notebooks to reproduce the results and visualizations.
--   Use the interactive map in the `visualizations/` directory to explore sales performance by location.
--   Access the Tableau dashboard (if shared) to interact with key sales insights and explore the data visually.
+- Explore the Jupyter notebooks to understand the data analysis process.
+- Run the notebooks to reproduce the results and visualizations.
+- Use the interactive map in the `visualizations/` directory to explore sales performance by location.
+- Access the Tableau dashboard (if shared) to interact with key sales insights and explore the data visually.
 
 ## Contributing
 
