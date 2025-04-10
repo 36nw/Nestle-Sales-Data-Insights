@@ -4,7 +4,7 @@ This directory contains the final reports and presentations summarizing the anal
 
 ## Contents
 
-* **[Project_Report.pdf](Project_Report.pdf):** A comprehensive written report detailing the project's objectives, methodology, results, and recommendations. This document covers all aspects of the analysis, including exploratory data analysis, time series forecasting, segmentation, and geospatial analysis.
+* **[Detailed_Project_Report.pdf](Project_Report.pdf):** A comprehensive written report detailing the project's objectives, methodology, results, and recommendations. This document covers all aspects of the analysis, including exploratory data analysis, time series forecasting, segmentation, and geospatial analysis.
 * **[Project_Presentation.pptx](Project_Presentation.pptx):** A PowerPoint presentation designed to visually communicate the key findings and strategic insights derived from the analysis. This presentation is suitable for presenting to stakeholders and summarizing the project's impact.
 * **[Executive_Summary.pdf](Executive_Summary.pdf):** A concise summary of the main findings and recommendations, tailored for executives and decision-makers who require a quick overview of the project's outcomes.
 * **[Project_overview.pdf](Project_overview.pdf):** An overview of the project, detailing the strategic sales optimization for Nestle through advanced data analysis.
