@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3016f868810395a2fbc499b9b97022cb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3016f868810395a2fbc499b9b97022cb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3016f868810395a2fbc499b9b97022cb = L.map(
+                "map_3016f868810395a2fbc499b9b97022cb",
+                {
+                    center: [-30.4723707, 140.258501375],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48394db821f5810fea4e9b96ca4455cc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_48394db821f5810fea4e9b96ca4455cc.addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+            var marker_f633c389235f7f037464e10c49e631b2 = L.marker(
+                [-35.4883502, 149.0026942],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_efc6ea54f3a7295333fa95250acfde30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ebd3156ae375b286a57a5efb2301ed3 = $(`<div id="html_9ebd3156ae375b286a57a5efb2301ed3" style="width: 100.0%; height: 100.0%;">Location: Australian Capital Territory<br>Total Revenue: $3,102,358.07<br>Total Sales: 1918</div>`)[0];
+                popup_efc6ea54f3a7295333fa95250acfde30.setContent(html_9ebd3156ae375b286a57a5efb2301ed3);
+            
+        
+
+        marker_f633c389235f7f037464e10c49e631b2.bindPopup(popup_efc6ea54f3a7295333fa95250acfde30)
+        ;
+
+        
+    
+    
+            var marker_545916720f83054ff0ba196b994ad4b6 = L.marker(
+                [-31.8759835, 147.2869493],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_35ea319b3f8403fc1ce4653741dfcab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_908711dbb398ae43ad68a7407a9f7752 = $(`<div id="html_908711dbb398ae43ad68a7407a9f7752" style="width: 100.0%; height: 100.0%;">Location: New South Wales<br>Total Revenue: $4,250,257.49<br>Total Sales: 2610</div>`)[0];
+                popup_35ea319b3f8403fc1ce4653741dfcab8.setContent(html_908711dbb398ae43ad68a7407a9f7752);
+            
+        
+
+        marker_545916720f83054ff0ba196b994ad4b6.bindPopup(popup_35ea319b3f8403fc1ce4653741dfcab8)
+        ;
+
+        
+    
+    
+            var marker_28bced563116895e47bb082742f3cba3 = L.marker(
+                [-19.8516101, 133.2303375],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_e6cac7eb9c0fe12e7df734b268aedd1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f31f14d59791c1563225e73b01717a03 = $(`<div id="html_f31f14d59791c1563225e73b01717a03" style="width: 100.0%; height: 100.0%;">Location: Northern Territory<br>Total Revenue: $4,143,288.90<br>Total Sales: 2376</div>`)[0];
+                popup_e6cac7eb9c0fe12e7df734b268aedd1f.setContent(html_f31f14d59791c1563225e73b01717a03);
+            
+        
+
+        marker_28bced563116895e47bb082742f3cba3.bindPopup(popup_e6cac7eb9c0fe12e7df734b268aedd1f)
+        ;
+
+        
+    
+    
+            var marker_53ed9ebb8462d96cc5acca6207d4ab5a = L.marker(
+                [-22.1646782, 144.5844903],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_1de3d7998734a3eafa7797b61e4c3c64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7f6d49501eef6a32a5a7bbae52f76bb = $(`<div id="html_f7f6d49501eef6a32a5a7bbae52f76bb" style="width: 100.0%; height: 100.0%;">Location: Queensland<br>Total Revenue: $4,309,199.02<br>Total Sales: 2555</div>`)[0];
+                popup_1de3d7998734a3eafa7797b61e4c3c64.setContent(html_f7f6d49501eef6a32a5a7bbae52f76bb);
+            
+        
+
+        marker_53ed9ebb8462d96cc5acca6207d4ab5a.bindPopup(popup_1de3d7998734a3eafa7797b61e4c3c64)
+        ;
+
+        
+    
+    
+            var marker_709085269a595d80b806ae3c7a444428 = L.marker(
+                [-30.5343665, 135.6301212],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_2dfb28c5169ff97497412ca25c34b53c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_234e446164253d4b5c5bbc8a79b239c2 = $(`<div id="html_234e446164253d4b5c5bbc8a79b239c2" style="width: 100.0%; height: 100.0%;">Location: South Australia<br>Total Revenue: $5,508,722.33<br>Total Sales: 3143</div>`)[0];
+                popup_2dfb28c5169ff97497412ca25c34b53c.setContent(html_234e446164253d4b5c5bbc8a79b239c2);
+            
+        
+
+        marker_709085269a595d80b806ae3c7a444428.bindPopup(popup_2dfb28c5169ff97497412ca25c34b53c)
+        ;
+
+        
+    
+    
+            var marker_ad5b65df6380d1f70929ad340806ef38 = L.marker(
+                [-42.035067, 146.6366887],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_172a9ff1a00fb3b7f2ff3e53482b1a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6a6a023cb77a14c41523c775b8a51ef = $(`<div id="html_b6a6a023cb77a14c41523c775b8a51ef" style="width: 100.0%; height: 100.0%;">Location: Tasmania<br>Total Revenue: $5,380,671.89<br>Total Sales: 3187</div>`)[0];
+                popup_172a9ff1a00fb3b7f2ff3e53482b1a65.setContent(html_b6a6a023cb77a14c41523c775b8a51ef);
+            
+        
+
+        marker_ad5b65df6380d1f70929ad340806ef38.bindPopup(popup_172a9ff1a00fb3b7f2ff3e53482b1a65)
+        ;
+
+        
+    
+    
+            var marker_43d94f370017def22751bf04f089ac51 = L.marker(
+                [-36.5986096, 144.6780052],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_7c58fe5ffe6d64f01bf16dbf044b56a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97f729c441bafbd7b69adea2786b396c = $(`<div id="html_97f729c441bafbd7b69adea2786b396c" style="width: 100.0%; height: 100.0%;">Location: Victoria<br>Total Revenue: $3,640,113.71<br>Total Sales: 2055</div>`)[0];
+                popup_7c58fe5ffe6d64f01bf16dbf044b56a7.setContent(html_97f729c441bafbd7b69adea2786b396c);
+            
+        
+
+        marker_43d94f370017def22751bf04f089ac51.bindPopup(popup_7c58fe5ffe6d64f01bf16dbf044b56a7)
+        ;
+
+        
+    
+    
+            var marker_0e58ef95617eb09f708f95a24040e554 = L.marker(
+                [-25.2303005, 121.0187246],
+                {}
+            ).addTo(map_3016f868810395a2fbc499b9b97022cb);
+        
+    
+        var popup_f79cc3792fc4dc502b8fc2cb5f0b71d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e2620d0312a472ad5af3fde47b4fcd = $(`<div id="html_e8e2620d0312a472ad5af3fde47b4fcd" style="width: 100.0%; height: 100.0%;">Location: Western Australia<br>Total Revenue: $485,145.04<br>Total Sales: 271</div>`)[0];
+                popup_f79cc3792fc4dc502b8fc2cb5f0b71d2.setContent(html_e8e2620d0312a472ad5af3fde47b4fcd);
+            
+        
+
+        marker_0e58ef95617eb09f708f95a24040e554.bindPopup(popup_f79cc3792fc4dc502b8fc2cb5f0b71d2)
+        ;
+
+        
+    
+</script>
+</html>
