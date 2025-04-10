@@ -84,6 +84,7 @@ Nestle_Sales_Insights/
 * notebooks/        # Jupyter notebooks with analysis and code
 * visualizations/   # Saved visualizations and interactive maps
 * tableau_dashboard/ # (Optional) Information or assets related to the Tableau dashboard
+* reports/        # Final reports and presentations, including project overview and executive summary
 * requirements.txt  # Python dependencies
 * README.md         # This file
 
